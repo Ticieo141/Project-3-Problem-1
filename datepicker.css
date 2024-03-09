@@ -1,0 +1,62 @@
+.datepicker-table,
+.datepicker-navigation {
+    width: 60%;
+}
+
+.datepicker-table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+.datepicker-table th,
+.datepicker-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.datepicker-table th {
+    background-color: #f2f2f2;
+}
+
+.datepicker-table td.prev-month-day,
+.datepicker-table td.next-month-day {
+    color: #aaa;
+}
+
+.datepicker-table td.current-month-day {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.datepicker-table td.datepicker-cell {
+    cursor: pointer;
+}
+
+.datepicker-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.datepicker-navigation div {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 10px;
+}
+
+.datepicker-navigation button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.datepicker-navigation button:hover {
+    background-color: #45a049;
+}
